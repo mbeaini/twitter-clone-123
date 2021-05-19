@@ -10,7 +10,7 @@ exports.up = function (knex) {
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
     table.specificType("profile_picture", "longblob");
-    table.specificType("header_picture", "lonblob");
+    table.specificType("header_picture", "longblob");
   });
 };
 
